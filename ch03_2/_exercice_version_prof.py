@@ -44,10 +44,10 @@ def cash(value):
 	ones = dollars
 
 #autres méthodes:
-#twenties, reste = divod(value , 20)
-#tens, reste = divod(reste, 10)
-#fives, reste = divod(reste, 5)
-#twos, ones = divod(reste, 2)
+#twenties, reste = divmod(value , 20)
+#tens, reste = divmod(reste, 10)
+#fives, reste = divmod(reste, 5)
+#twos, ones = divmod(reste, 2)
 
 
 	# Les dénominations pour les cents.
