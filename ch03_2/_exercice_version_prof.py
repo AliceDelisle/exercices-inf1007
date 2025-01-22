@@ -43,6 +43,13 @@ def cash(value):
 	dollars %= 5
 	ones = dollars
 
+#autres méthodes:
+#twenties, reste = divod(value , 20)
+#tens, reste = divod(reste, 10)
+#fives, reste = divod(reste, 5)
+#twos, ones = divod(reste, 2)
+
+
 	# Les dénominations pour les cents.
 	quarters = cents // 25
 	cents %= 25
